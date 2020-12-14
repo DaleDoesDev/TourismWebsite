@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taniti Tourism</title>
+
+    <!--Site stylesheet-->
+    <link rel="stylesheet" type="text/css" href="index.css" />
+
+    <!--Page specific styles-->
+    <style>
+        .container {
+            text-align: center;
+            margin-top:1px;
+            display: block;
+        }
+        .container span {
+                padding: 0 12% .5% 12%;
+         }
+        .bottomContain {
+            margin: 0;
+            padding-bottom:1.8%;
+        }
+
+        .question {
+            margin: 30px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="brand"><a href="index.html">Taniti</a></div>
+
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="accommodations.html">Accommodations</a>
+            </li>
+            <li>
+                <a href="dining.html">Dining</a>
+            </li>
+            <li>
+                <a href="activities.html">Activities</a>
+            </li>
+            <li>
+                <a href="transportation.html">Transportation</a>
+            </li>
+            <li>
+                <a href="faq.html">FAQ</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </span>
+        <hr />
+    </div>
+
+    <div class="container bottomContain">
+
+        <div class="question">
+            <a onclick="toggle('answer1');">Will I need to bring a different kind of power adapter?</a>
+            <div style="display:none;" id="answer1">
+                Power outlets are 120 volts (same as the United States).
+            </div>
+        </div>
+
+        <div class="question">
+            <a onclick="toggle('answer2');">
+                What are the laws on alcohol?
+            </a>
+            <div style="display:none;" id="answer2">
+                Alcohol is not allowed to be served or sold between the hours of midnight and 9:00 a.m. The drinking age on Taniti is 18 and the drinking age is not strictly enforced.
+            </div>
+        </div>
+
+        <div class="question">
+            <a onclick="toggle('answer3');">
+                What languages are spoken?
+            </a>
+            <div style="display:none;" id="answer3">
+                Many younger Tanitians speak fluent English. Very little English is spoken in rural areas, especially by the older residents.
+            </div>
+        </div>
+
+        <div class="question">
+            <a onclick="toggle('answer4');">
+                What healthcare facilities are there?
+            </a>
+            <div style="display:none;" id="answer4">
+                There is one hospital and several clinics. The hospital has many multilingual employees.
+            </div>
+        </div>
+
+        <div class="question">
+            <a onclick="toggle('answer5');">
+                How much crime is there?
+            </a>
+            <div style="display:none;" id="answer5">
+                Violent crime is very rare on Taniti, but as tourism increases, there are more reports of pickpocketing and other petty crimes.
+            </div>
+        </div>
+
+        <div class="question">
+            <a onclick="toggle('answer6');">
+                What is the holiday schedule?
+            </a>
+            <div style="display:none;" id="answer6">
+                Taniti enjoys a large number of national holidays, and many tourist attractions and restaurants will be closed on holidays, so visitors should plan accordingly.
+            </div>
+        </div>
+
+        <div class="question">
+            <a onclick="toggle('answer7');">
+                What currency is used?
+            </a>
+            <div style="display:none;" id="answer7">
+                Taniti uses the U.S. dollar as its currency, but many businesses will also accept euros and yen.
+                Several banks facilitate currency exchange, and many businesses accept major credit cards.
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="brand"><a class="brand" href="HTMLPage1.html">Taniti</a></div>
+        <div class="footerCol">
+            <h3>Call to Action Header</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</span>
+            <div>
+                <span>555-555-5555</span>
+                <span>tourism@taniti.gov</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="faq.js" type="text/javascript"></script>
+
+</body>
+</html>
